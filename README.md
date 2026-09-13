@@ -20,4 +20,4 @@ The source code is released under the MIT License. Pokémon names, characters, a
 
 ## Getting started
 
-Local development prerequisites and startup instructions will be added in the next foundation task. See [CONTRIBUTING.md](CONTRIBUTING.md) for working conventions.
+See [local development setup](docs/local-development.md) for prerequisites and local infrastructure startup. See [CONTRIBUTING.md](CONTRIBUTING.md) for working conventions.
