@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "https://github.com/smogon/pokemon-showdown.git",
+    "commit": "d5fb7ea62aa827ece10c59b5d5f4a597868eae10",
+    "retrievedAt": "2026-09-14",
+    "license": "MIT"
+  },
+  "target": {
+    "generation": 5,
+    "format": "gen5ou",
+    "formatLabel": "BW OU Singles"
+  }
+}

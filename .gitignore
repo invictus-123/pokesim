@@ -1,0 +1,38 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Java / Spring
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.class
+
+# C++ / CMake
+engine-cpp/build/
+engine-cpp/out/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+*.dll
+*.so
+*.dylib
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+
+# Generated data and test output
+data/generated/
+coverage/
+test-results/

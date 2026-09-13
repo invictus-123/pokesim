@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "dataVersion": "showdown-d5fb7ea62aa827ece10c59b5d5f4a597868eae10-gen5ou",
+  "sourceLock": "../pokemon-showdown.lock.json",
+  "artifacts": {
+    "species": "species.json",
+    "moves": "moves.json",
+    "abilities": "abilities.json",
+    "items": "items.json",
+    "learnsets": "learnsets.json",
+    "format": "format.json"
+  },
+  "generatedAt": null,
+  "generatorVersion": null
+}

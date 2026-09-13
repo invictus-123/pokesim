@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pokesim.dev/schema/normalized-game-data.schema.json",
+  "title": "PokeSim normalized game data",
+  "type": "object",
+  "required": ["schemaVersion", "dataVersion", "entries"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "dataVersion": { "type": "string", "minLength": 1 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "generation"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9]+$" },
+          "name": { "type": "string", "minLength": 1 },
+          "generation": { "type": "integer", "minimum": 1, "maximum": 9 }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}
