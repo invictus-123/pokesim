@@ -42,8 +42,8 @@ The module skeleton is introduced in the following foundation task. Once present
 ```sh
 cmake -S engine-cpp -B engine-cpp/build
 cmake --build engine-cpp/build
-./backend/mvnw test
-cd frontend && npm ci && npm run check
+mvn -f backend/pom.xml test
+cd frontend && npm install && npm run check
 ```
 
 ## Runtime responsibilities
